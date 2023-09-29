@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="./images/p2.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Skills</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Frontend developer</p>
+                <h1>Hi, I'm <span>Sidra</span> Zahid<br> from Pakistan. </h1>
+            </div>
+        </div>
+    </div>
+
+
+
+
+ <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="./images/ppp.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me<span>...</span></h1>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab(event, 'skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab(event, 'experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab(event, 'education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Frontend</span><br>Development
+                        </li>
+                        <li><span>graphic</span><br>Designing
+                        </li>
+                        <li><span>vedio editing</span><br>throuh canva
+                        </li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Frontend Development</span><br>8 months of experience.
+                        </li>
+                        <li><span>graphic Designing</span><br>2years of experience
+                        </li>
+                        <li><span>vedio editing</span><br>5 months of experience
+                        </li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>BSc</span><br>
+                        </li>
+                        <li><span>web and mob app Development</span><br>
+                        </li>
+                        <li><span>graphic Designing</span><br>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+ </div>
+
+
+
+
+ <div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>logo Designing</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget sollicitudin mauris. In hac habitasse platea dictumst. </p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>UI/UX Design</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget sollicitudin mauris. In hac habitasse platea dictumst. </p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>App Design</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget sollicitudin mauris. In hac habitasse platea dictumst. </p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+ </div>
+
+
+
+
+ <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="./images/sPost.jpg">
+                <div class="layer">
+                    <h3>Social Media posting</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget sollicitudin mauris. In hac habitasse platea dictumst. </p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="./images/flyer.jpg">
+                <div class="layer">
+                    <h3>flyer design</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget sollicitudin mauris. In hac habitasse platea dictumst. </p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="./images/cal.JPG">
+                <div class="layer">
+                    <h3>calculator</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget sollicitudin mauris. In hac habitasse platea dictumst. </p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+ </div>
+
+
+
+ <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-regular fa-paper-plane"></i> abc@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i> 03123456789</p>
+                <div class="social-icons">
+                    <a href=""><i class="fa-brands fa-square-github"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="./images/resume sidra zahid-1_copy.pdf" download="computer" class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="text" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+ </div>
+ <div class="copyright"> 
+    <p> © All Rights Reserved By Sidra<i class="fa-solid fa-star fa-flip"></i> zahid</p>
+ </div>
+ <script src="script.js"></script>
+    
+</body>
+</html>
